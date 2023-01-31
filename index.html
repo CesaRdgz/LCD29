@@ -21,11 +21,18 @@
    
       <div class=" collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto ">
-          <li class="nav-item">
-            <a class="nav-link mx-2 " href="#">Plantilla</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Equipo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Plantilla</a></li>
+              <li><a class="dropdown-item" href="#">Fichajes </a></li>
+              <li><a class="dropdown-item" href="#">Historia</a></li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#">Equipo</a>
+            <a class="nav-link mx-2" href="#">Noticias</a>
           </li>
           <li class="nav-item d-none d-lg-block">
             <a class="nav-link mx-2" href="#">
@@ -33,22 +40,66 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link mx-2" href="#">Tablas</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link mx-2" href="#">Aficion</a>   
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Tienda
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Blog</a></li>
-              <li><a class="dropdown-item" href="#">About Us</a></li>
-              <li><a class="dropdown-item" href="#">Contact us</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">Tienda</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <br>
+  <div class="container">
+    <div class="row row-carrousel">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          
+          <div class="carousel-item">
+            <img src="IMG/Carrousel/IMG-20230128-WA0012.jpg" class="d-block w-100 carrousel-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Bayern de Monchos vs LOS CRACKS DEL 29</h5>
+              <p class="text-white">Horario, entradas y donde ver</p>
+            </div>
+          </div>
+
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="IMG/Carrousel/Calendario.avif" class="d-block w-100 carrousel-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Emparejamientos de la 2ª vuelta</h5>
+              <p class="text-white">Conocemos los equipos a lpos que nos enfrentaremos en la segunda vuelta</p>
+            </div>
+          </div>
+          
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="IMG/Carrousel/IMG-20230129-WA0006.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Resumen de la jornada 11</h5>
+              <p class="text-white">Dakar Club 7 - 0 Los cracks del 29</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>

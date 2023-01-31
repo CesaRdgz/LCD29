@@ -6,3 +6,25 @@
     margin-top: -10px;
     height: 45px !important;
 }
+
+/* Carrousel */
+
+.row-carrousel{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.carousel{
+    height: 25em;
+    width: 35em;
+}
+
+.text-white{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.carrousel-img{
+    height: 25em;
+}
