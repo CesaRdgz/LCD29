@@ -3,8 +3,7 @@ body{
     font-family: 'Bebas Neue';
 }
 
-
-/* Navbar */
+/*Navbar*/
 
 .navbar{
     background-color: #00018f !important;
@@ -68,7 +67,7 @@ body{
 }
 
 
-/* Carrousel */
+/*Carrousel*/
 .carrousel-img{
     height: 30em;
     width: 50em;
@@ -89,10 +88,10 @@ body{
 }
 
 
-/* Cuerpo */
+/*Cuerpo*/
 
 .col-titulo{
-    margin-top: -7em;
+    margin-top: -7.2em;
 }
 
 #titulo{
@@ -109,3 +108,38 @@ body{
         font-size: 57px;
     }
   }
+
+        /*Noticias*/
+
+        .row-noticias{
+            padding: 2em;
+        }
+
+        .btn-readMore{
+            background-color: #00018f;
+            color: white;
+        }
+
+        .btn-readMore:hover{
+            background-color: #00018f;
+            color: white;
+        }
+
+        .btn-readMore:active{
+            background-color: #00018f;
+            color: white;
+        }
+
+        .img-news{
+            height: 17em;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+
+        .card{
+            margin-top: 1em;
+            
+        }    
+        
+         
