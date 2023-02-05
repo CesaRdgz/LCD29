@@ -99,3 +99,13 @@ body{
     font-size: 115px;
 
 }
+
+@media (max-width: 767px) {
+    .col-titulo{
+        margin-top: 0px;
+    }
+
+    #titulo{
+        font-size: 57px;
+    }
+  }
