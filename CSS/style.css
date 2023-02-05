@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Square+Peg&display=swap');
+body{
+    font-family: 'Bebas Neue';
+}
+
+
+/* Navbar */
+
 .navbar{
     background-color: #00018f !important;
 }
@@ -7,17 +15,68 @@
     height: 45px !important;
 }
 
-/* Carrousel */
 
-.row-carrousel{
-    display: flex;
-    justify-content: center;
-    color: white;
+/* Footer */
+
+.footer{
+    background-color:#151414;
+    height: 8em !important;
 }
 
-.carousel{
-    height: 25em;
-    width: 35em;
+.img-footer{
+    height: 2em;
+}
+
+.footer{
+    position: relative;
+}
+
+.text-footer{
+    color: white;
+    
+}
+
+#LCD29{
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+}
+
+#instagram{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-size: 1em;
+    bottom: 15px;
+    right: 10px;
+}
+
+#email{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-size: 1em;
+    bottom: 15px;
+    right: 40px;
+}
+
+#copyright{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+
+/* Carrousel */
+.carrousel-img{
+    height: 30em;
+    width: 50em;
+    object-fit: cover;
+    object-position: center center;
+}
+.col-instagram{
+    position: relative;
 }
 
 .text-white{
@@ -27,4 +86,16 @@
 
 .carrousel-img{
     height: 25em;
+}
+
+
+/* Cuerpo */
+
+.col-titulo{
+    margin-top: -7em;
+}
+
+#titulo{
+    font-size: 115px;
+
 }
