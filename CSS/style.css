@@ -141,5 +141,114 @@ body{
             margin-top: 1em;
             
         }    
-        
+ 
+/*============================================PLANTILLA==============================================*/
          
+.carta-box {
+    margin: 25px;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    perspective: 1000px;
+    
+  }
+  
+  .carta-box:hover .carta {
+      transform: rotateY(180deg);
+  }
+  
+  .carta {
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+    
+  }
+  
+  .cara {
+    position: absolute;
+    backface-visibility: hidden;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .cara.detras {
+    transform: rotateY(180deg);
+    width: 200px;
+    height: 250px;
+  }
+
+  .datos-card{
+    position: absolute;
+    left: 3em;
+    top: 3em;
+  }
+
+  .carta-cara{
+    height: 245px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center center;
+    z-index: 10;
+  }
+
+  .circulo {
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #00018f;
+    color: white;
+    display: block;
+    padding: auto;
+    text-align: center;
+}
+
+.circulo-numero{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.circulo-escudo{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white !important;
+}
+
+.escudo-card{
+    width: 20px;
+    height: 20px;
+}
+
+.nombre-card{
+    writing-mode: vertical-lr;
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    left: -5px;
+    top:10px
+}
+
+.franja-card{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 222px;
+    margin: 0px !important;
+    position: absolute;
+    left: -92px;
+    top: 102px;
+}
+
+.azul-oscuro{
+    background-color: #00018f;
+    height: 0.5em;
+}
+
+.azul{
+    background-color: #2a67bb;
+    height: 0.5em;
+}
