@@ -121,8 +121,9 @@ body{
         }
 
         .btn-readMore:hover{
-            background-color: #00018f;
-            color: white;
+            background-color: white;
+            color: #00018f;
+            border: #00018f 1px solid;
         }
 
         .btn-readMore:active{
@@ -251,4 +252,34 @@ body{
 .azul{
     background-color: #2a67bb;
     height: 0.5em;
+}
+
+.btn-blue{
+    background-color: #00018f;
+    color: white;
+    margin-top: 2px;
+}
+
+.btn-blue:hover{
+    background-color: white;
+    color: #00018f;
+    border: #00018f 1px solid;
+
+}
+
+.row-botones{
+    text-align: center;
+    display: block;
+}
+
+/*============================================NOTICIAS==============================================*/
+
+.titulo-noticias{
+    margin-top: 25px;
+    font-size: 100px;
+}
+
+.principal-col{
+    justify-content: center;
+    display: flex;
 }
