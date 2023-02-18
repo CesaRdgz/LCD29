@@ -45,3 +45,29 @@
     $( ".delantero" ).show();
     $( ".portero" ).hide();
   });
+
+  $( ".clasificacion").show();
+  $( ".fair").hide();
+
+  $( ".btn-clasificacion" ).click(function() {
+    $( ".clasificacion").show();
+    $( ".fair").hide();
+  });
+
+  $( ".btn-fair" ).click(function() {
+    $( ".clasificacion").hide();
+    $( ".fair").show();
+  });
+
+  $( ".goles").show();
+  $( ".asis").hide();
+
+  $( ".btn-goles" ).click(function() {
+    $( ".goles").show();
+    $( ".asis").hide();
+  });
+
+  $( ".btn-asis" ).click(function() {
+    $( ".goles").hide();
+    $( ".asis").show();
+  });

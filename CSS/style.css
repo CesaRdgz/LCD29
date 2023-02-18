@@ -18,17 +18,15 @@ body{
 
 /* Footer */
 
+
 .footer{
     background-color:#151414;
     height: 8em !important;
+    position: relative;
 }
 
 .img-footer{
     height: 2em;
-}
-
-.footer{
-    position: relative;
 }
 
 .text-footer{
@@ -101,7 +99,7 @@ body{
 }
 
 @media (max-width: 767px) {
-    
+
     .col-instagram{
         position: relative;
         top:10px
@@ -293,4 +291,45 @@ body{
 
 .articulo{
     font-family: 'Roboto', sans-serif !important;  
+}
+
+/*================================================TABLAS===========================================*/
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th {
+  color: #fff;
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+.table-scroll {
+  border-radius: .5rem;
+}
+
+.table-scroll table thead th {
+  font-size: 1.25rem;
+}
+thead {
+  top: 0;
+  position: sticky;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-link:active{
+    color: black;
 }
