@@ -101,6 +101,12 @@ body{
 }
 
 @media (max-width: 767px) {
+    
+    .col-instagram{
+        position: relative;
+        top:10px
+    }
+
     .col-titulo{
         margin-top: 0px;
     }
