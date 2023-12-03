@@ -1,0 +1,120 @@
+{
+    "equipos" : [
+        {
+        "nombre" : "A. GUARASA PINTORES ",
+        "puntos" : 12
+        },
+        {
+        "nombre" : "CARPASIÓN ",
+        "puntos" : 18
+        },
+        {
+        "nombre" : "DAKAR OBRAS y REFORMAS",
+        "puntos" : 15
+        },
+        {
+        "nombre" : "GRUPO RÍAS FC ",
+        "puntos" : 14
+        },
+        {
+        "nombre" : "L'ART",
+        "puntos" : 29
+        },
+        {
+        "nombre" : "LA PLACITA FC",
+        "puntos" : 9
+        },
+        {
+        "nombre" : "LA VIEJA ESCUELA ",
+        "puntos" : 6
+        },
+        {
+        "nombre" : "LOKAL UNITED ",
+        "puntos" : 15
+        },
+        {
+        "nombre" : "LOS CHUCHIS ",
+        "puntos" : 0
+        },
+        {
+        "nombre" : "LOS CINCO-SIETE ",
+        "puntos" : 6
+        },      
+        {
+        "nombre" : "LOS CRACKS DEL 29",
+        "puntos" : 3
+        }, 
+        {
+        "nombre" : "MIESPAÑITA FC ",
+        "puntos" : 12
+        }, 
+        {
+        "nombre" : "NOTTINGHAM MIEDO",
+        "puntos" : 15
+        }, 
+        {
+        "nombre" : "OLIMPIC COSLADA",
+        "puntos" : 3
+        }, 
+        {
+        "nombre" : "OLIVO LEGENDS BURGUERBUEY",
+        "puntos" : 9
+        }, 
+        {
+        "nombre" : "RECREATIVO SAN FERNANDO FC",
+        "puntos" : 18
+        }, 
+        {
+        "nombre" : "SAD CIUHOY",
+        "puntos" : 106
+        }, 
+        {
+        "nombre" : "WARRIORS",
+        "puntos" : 19
+        }, 
+        {
+        "nombre" : "FABULOSOS DEL BALÓN",
+        "puntos" : 15
+        }, 
+        {
+        "nombre" : "GATILLEROS FC",
+        "puntos" : 41
+        }, 
+        {
+        "nombre" : "LOS CHAVALES",
+        "puntos" : 3
+        }, 
+        {
+        "nombre" : "N.C. EUROPE SÁNFER FC",
+        "puntos" : 12
+        }, 
+        {
+        "nombre" : "NONAME FC",
+        "puntos" : 21
+        }, 
+        {
+        "nombre" : "PALO SALVA",
+        "puntos" : 18
+        }, 
+        {
+        "nombre" : "UNIÓN PENOSA FC",
+        "puntos" : 21
+        }, 
+        {
+        "nombre" : "DUARTE RACING",
+        "puntos" : 17
+        }, 
+        {
+        "nombre" : "NEO SEÚL",
+        "puntos" : 20
+        }, 
+        {
+        "nombre" : "SPARTAN KAKO",
+        "puntos" : 15
+        }, 
+        {
+        "nombre" : "OPORTO CF",
+        "puntos" : 26
+        }
+    ]
+}

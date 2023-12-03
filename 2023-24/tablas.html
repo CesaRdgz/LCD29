@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#00018f">
+  <link rel="shortcut icon" href="../IMG/2022-23/Escudo.png"/>  
+  <title>LCD29</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="../CSS/style.css" rel="stylesheet">
+  <script src="../JS/navbar23-24.js"></script>
+  <script src="../JS/tablaClasificacion.js"></script>
+  <script src="../JS/tablaDeportividad.js"></script>
+  <script src="../JS/tablaGoles.js"></script>
+  <script src="../JS/tablaAsistencias.js"></script>
+  <script src="../JS/footer.js"></script>
+</head>
+<body>
+  <nav-bar noticia="false"></nav-bar>
+
+  <br>
+
+  <div class="container">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-clasificacion" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Clasificacion</button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-estadisticas" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Estadisticas</button>
+            </div>
+        </nav>
+        <div class="tab-content mt-3" id="nav-tabContent">
+
+            <div class="tab-pane fade show active" id="nav-clasificacion" role="tabpanel" aria-labelledby="nav-home-tab">
+                <button class="btn btn-readMore btn-clasificacion">Liga</button>
+                <button class="btn btn-readMore btn-fair">Fair Play</button>
+                <!--Liga-->
+                <tabla-clasificacion class="clasificacion"></tabla-clasificacion>             
+                <!--Fair Play-->
+                <tabla-deportividad class="fair"></tabla-deportividad>
+            </div>
+            <div class="tab-pane fade" id="nav-estadisticas" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <button class="btn btn-readMore btn-goles">Goles</button>
+                <button class="btn btn-readMore btn-asis">Asistencias</button>
+                <!--GOLES-->
+                <tabla-goles class="goles"></tabla-goles>                                      
+                <!--ASISTENCIAS-->
+                <tabla-asistencias class="asis"></tabla-asistencias>
+            </div>
+        </div>
+  </div>
+</div>
+<web-footer></web-footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="../JS/effects.js"></script>
+</html>

@@ -1,0 +1,60 @@
+{
+    "leyendas":[
+        {   
+            "apodo":"Alberca",
+            "nombre":"Alejandro",
+            "apellido":"Alberca",
+            "posicion":"MC",
+            "dorsal":"15",
+            "urlIMG":"IMG/Leyendas/albercaLegend.png",
+            "titulo": "Il Capitano",
+            "descripcion": "Líder natural de los cracks y jefe todopoderoso del esférico",
+            "goles": 7,
+            "asistencias": 2,
+            "partidos": 19,
+            "temporadas": "2022-23"
+        },
+        {   
+            "apodo":"Palacios",
+            "nombre":"David",
+            "apellido":"Palacios",
+            "posicion":"MC",
+            "dorsal":"2",
+            "urlIMG":"IMG/Leyendas/palaciosLegend.png",
+            "titulo": "La bruja",
+            "descripcion": "Cuando tiene el balón en los pies, este Harry Potter de Aliexpress hace magia",
+            "goles": 8,
+            "asistencias": 1,
+            "partidos": 16,
+            "temporadas": "2022-23"
+        },
+        {   
+            "apodo":"Munilla",
+            "nombre":"Javier",
+            "apellido":"Munilla",
+            "posicion":"MC",
+            "dorsal":"28",
+            "urlIMG":"IMG/Leyendas/munillaLegend.png",
+            "titulo": "Ronaldinho",
+            "descripcion": "Visión de tunel + crazy skills. Uma delicia verlo jugar",
+            "goles": 8,
+            "asistencias": 3,
+            "partidos": 18,
+            "temporadas": "2022-23"
+        },
+        {   
+            "apodo":"Jose",
+            "nombre":"Jose",
+            "apellido":"Alberca",
+            "posicion":"ENT",
+            "dorsal":"E",
+            "urlIMG":"IMG/Leyendas/joseLegend.png",
+            "titulo": "El Gfe",
+            "descripcion": "Julio César renacido en los banquillos de este equipo",
+            "goles": 0,
+            "asistencias": 0,
+            "partidos": 10,
+            "temporadas": "2022-23"
+        }
+    ]
+}

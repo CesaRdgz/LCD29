@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Roboto:wght@100&family=Square+Peg&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bebas Neue';
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/*Navbar*/
+
+.navbar{
+    background-color: #00018f !important;
+}
+
+.nav-img{
+    margin-top: -10px;
+    height: 45px !important;
+}
+
+
+/* Footer */
+
+
+.footer{
+    background-color:#151414;
+    height: 8em !important;
+    flex-shrink: 0;
+    position: relative;
+    margin-top: 40px !important;
+    
+}
+
+.img-footer{
+    height: 2em;
+}
+
+.text-footer{
+    color: white;
+    
+}
+
+#LCD29{
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+}
+
+#instagram{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-size: 1em;
+    bottom: 15px;
+    right: 10px;
+}
+
+#email{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-size: 1em;
+    bottom: 15px;
+    right: 40px;
+}
+
+#copyright{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+
+/*Carrousel*/
+.carrousel-img{
+    height: 30em;
+    width: 50em;
+    object-fit: cover;
+    object-position: center center;
+}
+.col-instagram{
+    position: relative;
+}
+
+.text-white{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.carrousel-img{
+    height: 25em;
+}
+
+
+/*Cuerpo*/
+
+.col-titulo{
+    margin-top: -7.2em;
+}
+
+#titulo{
+    font-size:115px;
+}
+
+@media (max-width: 767px) {
+
+    .col-instagram{
+        position: relative;
+        top:10px
+    }
+
+    .col-titulo{
+        margin-top: 0px;
+    }
+
+    #titulo{
+        font-size: 57px;
+    }
+  }
+
+        /*Noticias*/
+
+        .row-noticias{
+            padding: 2em;
+        }
+
+        .btn-readMore{
+            background-color: #00018f;
+            color: white;
+        }
+
+        .btn-readMore:hover{
+            background-color: white;
+            color: #00018f;
+            border: #00018f 1px solid;
+        }
+
+        .btn-readMore:active{
+            background-color: #00018f;
+            color: white;
+        }
+
+        .img-news{
+            height: 17em;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+
+        .card{
+            margin-top: 1em;
+            
+        }    
+ 
+/*============================================PLANTILLA==============================================*/
+         
+.carta-box {
+    margin: 25px;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    perspective: 1000px;
+    
+  }
+  
+  .carta-box:hover .carta {
+      transform: rotateY(180deg);
+  }
+  
+  .carta {
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+    
+  }
+  
+  .cara {
+    position: absolute;
+    backface-visibility: hidden;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .cara.detras {
+    transform: rotateY(180deg);
+    width: 200px;
+    height: 250px;
+  }
+
+  .datos-card{
+    position: absolute;
+    left: 3em;
+    top: 3em;
+  }
+
+  .carta-cara{
+    height: 245px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center center;
+    z-index: 10;
+  }
+
+  .circulo {
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #00018f;
+    color: white;
+    display: block;
+    padding: auto;
+    text-align: center;
+}
+
+.circulo-numero{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.circulo-escudo{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white !important;
+}
+
+.escudo-card{
+    width: 20px;
+    height: 20px;
+}
+
+.nombre-card{
+    writing-mode: vertical-lr;
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    left: -5px;
+    top:10px
+}
+
+.franja-card{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 222px;
+    margin: 0px !important;
+    position: absolute;
+    left: -92px;
+    top: 102px;
+}
+
+.azul-oscuro{
+    background-color: #00018f;
+    height: 0.5em;
+}
+
+.azul{
+    background-color: #2a67bb;
+    height: 0.5em;
+}
+
+.btn-blue{
+    background-color: #00018f;
+    color: white;
+    margin-top: 2px;
+}
+
+.btn-blue:hover{
+    background-color: white;
+    color: #00018f;
+    border: #00018f 1px solid;
+
+}
+
+.row-botones{
+    text-align: center;
+    display: block;
+}
+
+/*============================================NOTICIAS==============================================*/
+
+.titulo-noticias{
+    margin-top: 25px;
+    font-size: 100px;
+}
+
+.principal-col{
+    justify-content: center;
+    display: flex;
+}
+
+.articulo{
+    font-family: 'Roboto', sans-serif !important;  
+}
+
+/*================================================TABLAS===========================================*/
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th {
+  color: #fff;
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+.table-scroll {
+  border-radius: .5rem;
+}
+
+.table-scroll table thead th {
+  font-size: 1.25rem;
+}
+thead {
+  top: 0;
+  position: sticky;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-link:active{
+    color: black;
+}
+
+/*================================================PALMARÉS===========================================*/
+
+.img-palmares{
+    width: 250px;
+    height: 250px;
+}
+
+article{
+    position: relative;
+    width: 250px !important;
+    transition: all .3s ease;
+    margin-bottom: 10px;
+}
+
+article img:first-child {
+    border-radius: 4px;
+    object-fit: cover;
+    width: 250px;
+}
+
+article img:last-child {
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 23px;
+    margin: auto;
+    transform: translateY(25%);
+    transition: .3s ease;
+    opacity: 0;
+}
+
+article:hover {
+    transform: 
+        perspective(250px)
+        rotateX(10deg)
+        translateY(-5%)
+        translateZ(0);
+}
+
+article::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image:
+    linear-gradient(
+        to bottom,
+        transparent 5%,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0)95%
+    );
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+article:hover::before {
+    opacity: 1;
+    border-radius: 4px;
+}
+
+article:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+/*CARD LEYENDAS*/
+
+.carta-box-lgnds {
+    margin: 25px;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    perspective: 1000px;
+    }
+  
+  .carta-box-lgnds:hover .carta {
+      transform: rotateY(180deg);
+  }
+  
+  .carta {
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+  }
+  
+  .cara-lgnds {
+    position: absolute;
+    backface-visibility: hidden;
+    border: 2px solid black;
+    display: flex;
+    height: 350px;
+    width: 300px;
+    border-radius: 5px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 25%, rgba(43,110,198,1) 81%);
+  }
+  
+  .cara.detras-lgnds {
+    transform: rotateY(180deg);
+    width: 300px;
+    height: 350px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 25%, rgba(43,110,198,1) 81%);
+  }
+
+  .datos-card{
+    position: absolute;
+    left: 3em;
+    top: 3em;
+  }
+
+  .carta-cara-lgnds{
+    height: 245px;
+    width: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    z-index: 10;
+  }
+
+  .titulo-lgnd{
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 0.4px 0.4px white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .temp-lgnd{
+    text-align: center;
+    vertical-align: middle top;
+    padding: 0;
+  }
+
+  .circulo-lgnds {
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    display: block;
+    padding: auto;
+    text-align: center;
+}
+
+.circulo-numero-lgnd{
+    position: absolute;
+    font-size: 25px;
+    top: 5px;
+    right: 5px;
+}
+
+.circulo-escudo{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    bottom: 15px;
+    left: 10px;
+    color: white !important;
+}
+
+.escudo-card-lgnd{
+    width: 30px;
+    height: 30px;
+}
+
+.nombre-card{
+    writing-mode: vertical-lr;
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    left: -5px;
+    top:10px
+}
+
+.franja-card{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 222px;
+    margin: 0px !important;
+    position: absolute;
+    left: -92px;
+    top: 102px;
+}
+
+.btn-blue{
+    background-color: #00018f;
+    color: white;
+    margin-top: 2px;
+}
+
+.btn-blue:hover{
+    background-color: white;
+    color: #00018f;
+    border: #00018f 1px solid;
+}
+
+.italic{
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.hr-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #000;
+  }
+
+  .lgndCard{
+    padding: 0px !important;
+    width: 100%;
+  }

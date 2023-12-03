@@ -1,0 +1,131 @@
+{
+    "noticias" : {
+                  
+            "pretemporada" : { 
+                "pretemporada" : [
+                            {
+                                "titulo" : "¡Comienza la temporada!",
+                                "subtitulo_card" : "Empiezan los entrenamientos para la 2023-24",
+                                "urlIMG" : "IMG/2023-24/Noticias/inicioTemporada.jpg",
+                                "noticia" : ["Oh no. Los jugadores han vuelto de sus poco merecidas vacaciones a los entrenamientos dispuestos un a decepcionarnos un año más",
+                                            "Tras finalizar la primera temporada de la historia del club de manera agonica (nos adelantamos en el ultimo partido) los cracks han disfrutado de un caluroso verano entre fiestas y aire acondicionado"]
+                            },
+                            {
+                                "titulo" : "Idas y venidas",
+                                "subtitulo_card" : "Despedidas y presentacion de los nuevos fichajes",
+                                "urlIMG" : "IMG/2023-24/Noticias/mercadoFichajes.jpeg",
+                                "noticia" : [""]
+                            },
+                            {
+                                "titulo" : "Resultados de los partidos de pretemporada",
+                                "subtitulo_card" : "",
+                                "urlIMG" : "IMG/2023-24/Noticias/resultadosPretemporada.jpeg",
+                                "noticia" : [""]
+                            },
+                            {
+                                "titulo" : "Emparejamientos de la fase 1",
+                                "subtitulo_card" : "Ya disponibles todos los equipos del grupo",
+                                "urlIMG" : "IMG/2023-24/Noticias/calendario.avif",
+                                "noticia" : [""]
+                            }
+                ]
+            },
+
+           
+            "fase_1" : {
+                    
+                "jornada_1" : [
+                            {
+                                "titulo" : "LCD29 vs A Guarasa Pintores",
+                                "subtitulo_card" : "Horario, entradas y donde ver",
+                                "urlIMG" : "IMG/2023-24/Noticias/aguarasaVer.jpg",
+                                "noticia" : "El encuentro se celebrara el domingo 22 de Octubre de 2023 en al campo 2-A del Barrio del Puerto a las 17:00. La entrada será gratuita y se dejará entrar a gente hasta completar aforo"
+                                
+                            },                                                                                                                  
+                            {
+                                "titulo" : "Resumen de la Jornada 1 (1ª fase)",
+                                "subtitulo_card" : "LCD29 (1) - (2) A Guarasa Pintores",
+                                "urlIMG" : "IMG/2023-24/Noticias/aguarasaRes.jpg",
+                                "titulo_noticia" : "✍️EXTÁSIS EN LOS CÁRMENES (NO HUBO NINGUNA CARMEN), crónica de @davidgreyjoy",
+                                "noticia" : ["El conjunto cerúleo sufrió una honesta derrota en un partido muy trabado que ninguno de los dos equipos quería dejar marchar.",
+                                            "Los Cracks se han visto reforzados tanto en la línea de ataque como en la defensa y se ha notado. Los “ninhos do favelas” aportaron sangre (y sustancias psicoadictivas) a la reformada alineación azul, que había sufrido pérdidas considerables, como Palacios o Ronaldinho Munilla.",
+                                            "Ya desde el comienzo Agobia y Fabre demostraron lo que vale 7 años de haber jugado descalzos en el barro y comenzaron presionando muy fuerte a los rivales. El nuevo capitán, Cepi, dirigió al equipo como quién dirige un grupo de yayas en un viaje del Imserso en Roma. El primer gol no tardó en llegar “de manos” (DE MANOS, REPITO) de nuestro nuevo extremo, Dieguinho, un carrilero de clase que dejó en evidencia a la defensa rival con unos regates apotropaicos e incólumes hasta dejar el esférico en la red. Mención de honor para Javi y Pablo que dirigieron el juego del equipo como Aquiles a los mirmidones. De Manu ya está todo dicho, 14 puntos Fantasy. Lunar, Dani y Adri aportaron un toque fresco, contundente y competitivo cuando entraron en el terreno de juego. Finalmente pudieron con nuestra impávida defensa y el partido se perdió al final.",
+                                            "Como última cosa reseñable, gracias Laura. Alberca, el nuevo DT salió reforzado en el banquillo con su actuación y su gorra (que guapa coño). Aguas, impresionante siempre con su abrigo de detective. Promete mucho estos Ñacks de los Ñiños." ]
+                            }
+                ],
+                "jornada_2" : [
+                            {
+                                "titulo" : "LCD29 vs *DESCANSO*",
+                                "subtitulo_card" : "Horario, entradas y donde ver",
+                                "urlIMG" : "IMG/2023-24/Noticias/descanso.jpg",
+                                "noticia" : "En esta tenebrosa semana los cracks los únicos terrenos que pisaran seran los de las dicotecas de San Fernando y Coslada donde acabaran con las existencias de alcohol de buena y mala calidad por el bien de la liga."
+                            }
+                ],
+                "jornada_3" : [
+                            {
+                                "titulo" : "LCD29 vs Recreativo San Fernando FC",
+                                "subtitulo_card" : "Horario, entradas y donde ver",
+                                "urlIMG" : "IMG/2023-24/Noticias/recreativoVer.jpg",
+                                "noticia" : "El encuentro se celebrara el domingo 4 de Noviembre de 2023 en al campo 3 del Barrio del Puerto a las 13:45. La entrada será gratuita y se dejará entrar a gente hasta completar aforo"
+                            },                                                                                                                  
+                            {
+                                "titulo" : "Resumen de la Jornada 3 (1ª fase)",
+                                "subtitulo_card" : "LCD29 (0) - (7) Recreativo San Fernando FC",
+                                "urlIMG" : "IMG/2023-24/Noticias/recreativoRes.jpeg",
+                                "titulo_noticia" : "✍️NOS BALEAN PERO SIN FUEGO DE RESPUESTA, crónica por @davidgreyjoy",
+                                "noticia" : ["Dramático partido el que se vivió el otro día en el Barrio del Puerto. El frío de ese día se metió en las almas de la afición de los Cracks en la que es la primera derrota salvaje de la temporada.",
+                                            "Manu, gigante noble guardián de nuestra red, no pudo detener los múltiples envites de los audaces atacantes eslavos. La defensa, con un Cepi imperial y un Lunar bárbaro (cojan el sentido de la palabra que gusten, queridos lectores, ya soy incapaz de calificar a un jugador tan enigmático y mágico, me faltan palabras) no pudieron mitigar el resultado. Moro hizo que los atacantes rivales vivieran su propio Kabul. Pablo y Javi, veteranos en experiencia pero no en edad intentaron de todo para poner el cuero en movimiento, siendo frenados por un Telón de Acero que ni Stalin hubiera sido capaz de poner. En cuanto a nuestros delanteros, supuso el debut de Iván en nuestro ataque, demostrando una calidad obscena en sus movimientos y unos regates endiablados que pusieron en aprietos a más de un defensa. Dani, a pesar de tener a un Pedri en el centro del campo, no pudo llegar a la portería rival. Adri, caballero del fuchibol, correcto como siempre. Se notó la ausencia de Fabre, del cual esperamos que se recupere pronto y que vuelva a hacer ese fútbol porro que tanto maravilla."]
+                    }
+                ],
+                "jornada_4" : [
+                            {
+                                "titulo" : "Palo Salva vs LCD29",
+                                "subtitulo_card" : "Horario, entradas y donde ver",
+                                "urlIMG" : "IMG/2023-24/Noticias/aplazada.jpg",
+                                "noticia" : "El encuentro fue aplazado y se jugará en Diciembre (fecha por concretar)"
+                                
+                            }
+                ],
+                "jornada_5" : [
+                            {
+                                "titulo" : "LCD29 vs Mi Españita FC",
+                                "subtitulo_card" : "Horario, entradas y donde ver",
+                                "urlIMG" : "IMG/2023-24/Noticias/",
+                                "noticia" : ""
+                            },
+                            {
+                                "titulo" : "Resumen de la Jornada 5 (1ª fase)",
+                                "subtitulo_card" : "LCD29 (3) - (5) Mi Españita FC",
+                                "urlIMG" : "IMG/2023-24/Noticias/espanitaRes.jpg",
+                                "titulo_noticia" : "✍️FRENESÍ SOBRE EL CÉSPED, crónica por @davidgreyjoy",
+                                "noticia" : "El partido que se disputó el anterior sábado supuso el éxtasis deportivo en su máximo apogeo, un combate épico que solo se decidió en el último segundo. Manu pues lo de siempre, imbatible e impasible en cada uno de sus movimientos. Pablo quién con su potencia física supo superar la mole física de los contrarios y convertirse en el motor diesel de 45 caballos de este equipo de sulfurosos. Dani hizo, por primera vez desde su lesión, verdaderos estragos en su banda, un mosquito culón que no dejó de molestar a la defensa enemiga. Y por último Fabre. Oh Fabre Fabre, tres pelotas que tocó, tres goles que hizo, simplemente astromántico en su movimiento, refinado en sus pasos y preciso en sus disparos, como un vaquero afeminado en mitad de Texas. Pese a todo, nuestras onomatopeyas de cristales rotos fueron derrotados 5-3, pero con mucho honor y mucho arte."
+                            }
+                ],
+                "jornada_6" : [
+                            {
+                                "titulo" : "La Placita vs LCD29",
+                                "subtitulo_card" : "Horario, entradas y donde ver",
+                                "urlIMG" : "IMG/2023-24/Noticias/paloSalvaVer.jpg",
+                                "noticia" : ""
+                            },
+                            {
+                                "titulo" : "Resumen de la Jornada 6 (1ª fase)",
+                                "subtitulo_card" : "Palo Salva (2) - (2) LCD29",
+                                "urlIMG" : "IMG/2023-24/Noticias/paloSalvaRes.jpg",
+                                "titulo_noticia" : "✍️CALLEN PERRAS, EMPATARON MIS ÑACKS, cronica por @davidgreyjoy",
+                                "noticia" : "Trepidante el encuentro disputado el sábado que acabo con empate a dos, lo que lo convierte en el primer punto de liga ganado por los clorhidratos de cocaína (cracks). Los protagonistas, los meninos de ouro, los herois do favelas: Moro con su calidad y rabia frecuentes nos regaló un disparo que perforó la portería y al portero rivales y que será probablemente uno de los goles de la Liga. Fabre, con su calidad de 9 habitual, fraguada en cientos de paquetes de Camel, terminó de volver esquizos a los aficionados al empatar tras una definición magistral en el arco enemigo. Estos goles no hubieran sido posibles sin la habitual creación de juego de nuestro rubio pollo favorito, Javi, y el poderío físico portentoso de Pablo, que definitivamente sí que parece que consumió algo de clorhidrato de cocaína para aguantar a un nivel espectacular todo el partido. Y si pudimos empatar la otra mitad del mérito pertenece a la defensa y a nuestro inigualable arquero. Cepi, que con su brazo prensil y una cantidad suficiente de anestésicos para evitar el dolor pudo contener todo el ataque rival. Manu, con la tranquilidad de un marihuanero plenamente impasible en su portería. Diego y Adri corrían por la banda como heroinómanos con síndrome de abstinencia, generando ocasiones y recuperando balones. Y Dani, q como un adicto al LSD, fue capaz de estar en todas partes, en todas posiciones y sobre todo, en nuestros corazones. Partido espectacular por parte de estos abanderados de Proyecto Hombre que nos permite afrontar la siguiente jornada con ilusión."
+                            }
+                ]
+                          
+            },
+
+           
+            "fase_2" : {
+                "jornada_1" : [
+                ]
+            }
+            
+
+        
+        }
+}
