@@ -17,7 +17,7 @@
             "posicion":"DEF",
             "dorsal":"21",
             "urlIMG":"IMG/2023-24/Jugadores/Cesar.png",
-            "goles": 0,
+            "goles": 2,
             "asistencias": 0
         },
         {   
@@ -27,7 +27,7 @@
             "posicion":"DEF",
             "dorsal":"20",
             "urlIMG":"IMG/2023-24/Jugadores/Lunar.png",
-            "goles": 0,
+            "goles": 1,
             "asistencias": 0
         },
         {   
@@ -36,9 +36,9 @@
             "apellido":"Algobia",
             "posicion":"DEF",
             "dorsal":"23",
-            "urlIMG":"...",
-            "goles": 2,
-            "asistencias": 2
+            "urlIMG":"IMG/2023-24/Jugadores/Moro.png",
+            "goles": 5,
+            "asistencias": 4
         },
         {   
             "apodo":"Dani",
@@ -47,8 +47,8 @@
             "posicion":"MC",
             "dorsal":"10",
             "urlIMG":"IMG/2023-24/Jugadores/Dani.png",
-            "goles": 0,
-            "asistencias": 0
+            "goles": 1,
+            "asistencias": 1
         },
         {   
             "apodo":"Pablo",
@@ -61,12 +61,22 @@
             "asistencias": 1
         },
         {   
+            "apodo":"Alberca",
+            "nombre":"Alejandro",
+            "apellido":"Alberca",
+            "posicion":"MC",
+            "dorsal":"15",
+            "urlIMG":"IMG/2023-24/Jugadores/Alex.png",
+            "goles": 1,
+            "asistencias": 1
+        },
+        {   
             "apodo":"Diego",
             "nombre":"Diego",
             "apellido":"Rodríguez",
             "posicion":"MC",
             "dorsal":"16",
-            "urlIMG":"...",
+            "urlIMG":"IMG/2023-24/Jugadores/Diego.png",
             "goles": 1,
             "asistencias": 0
         },
@@ -81,23 +91,43 @@
             "asistencias": 0
         },
         {   
+            "apodo":"Javi",
+            "nombre":"Javier",
+            "apellido":"Aguado",
+            "posicion":"MC",
+            "dorsal":"6",
+            "urlIMG":"IMG/2023-24/Jugadores/Javi.png",
+            "goles": 1,
+            "asistencias": 2
+        },
+        {   
             "apodo":"Fabre",
             "nombre":"Oscar",
             "apellido":"Fabre",
             "posicion":"DEL",
             "dorsal":"9",
-            "urlIMG":"...",
-            "goles": 4,
+            "urlIMG":"IMG/2023-24/Jugadores/Fabre.png",
+            "goles": 12,
+            "asistencias": 1
+        },
+        {   
+            "apodo":"Iván",
+            "nombre":"Iván",
+            "apellido":"Fuentes",
+            "posicion":"DEL",
+            "dorsal":"7",
+            "urlIMG":"IMG/2023-24/Jugadores/Fuentes.png",
+            "goles": 0,
             "asistencias": 0
         },
         {   
-            "apodo":"Alberca",
-            "nombre":"Alejandro",
-            "apellido":"Alberca",
-            "posicion":"ENT",
-            "dorsal":"E",
-            "urlIMG":"...",
-            "goles": 0,
+            "apodo":"Munilla",
+            "nombre":"Javier",
+            "apellido":"Munilla",
+            "posicion":"DEL",
+            "dorsal":"28",
+            "urlIMG":"IMG/2023-24/Jugadores/Munilla.png",
+            "goles": 1,
             "asistencias": 0
         },
         {   
