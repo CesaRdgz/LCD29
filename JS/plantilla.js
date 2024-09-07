@@ -1,6 +1,5 @@
 class cartaJugador extends HTMLElement {
 
-
   constructor() {
     super();
     this.jugadores
