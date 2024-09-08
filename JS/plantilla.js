@@ -1,38 +1,37 @@
-class cartaJugador extends HTMLElement{
-    
-    
-    constructor(){
-        super();
-        this.jugadores
-        this.tiempoEnMilisegundos = 200
-    }
+class cartaJugador extends HTMLElement {
 
-    cargarJSON() {
-        
-      fetch("../JSON/jugadores.json")
-        .then(response => {
-          if (!response.ok) {
-            throw new Error("La solicitud no se completó correctamente.");
-          }
-          return response.json();
-        })
-        .then(jsonData => {
-          this.jugadores = jsonData.equipo
-        })
-        .catch(error => {
-          console.error("Error al cargar el archivo JSON:", error);
-        });      
-      }
+  constructor() {
+    super();
+    this.jugadores
+    this.tiempoEnMilisegundos = 200
+  }
 
-    connectedCallback(){
-      this.cargarJSON();
-      
-      setTimeout(() => {
-        
-        if(this.jugadores !== null){
-            let htmlContent = `<div class="row">`
-            this.jugadores.forEach(jugador => {
-            htmlContent += 
+  cargarJSON() {
+
+    fetch("../JSON/jugadores.json")
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("La solicitud no se completó correctamente.");
+        }
+        return response.json();
+      })
+      .then(jsonData => {
+        this.jugadores = jsonData.equipo
+      })
+      .catch(error => {
+        console.error("Error al cargar el archivo JSON:", error);
+      });
+  }
+
+  connectedCallback() {
+    this.cargarJSON();
+
+    setTimeout(() => {
+
+      if (this.jugadores !== null) {
+        let htmlContent = `<div class="row">`
+        this.jugadores.forEach(jugador => {
+          htmlContent +=
             `<div class="col-lg-3 col-md-6 col-sm-12">
               <div class="carta-box">
                   <div class="carta">    
@@ -69,16 +68,16 @@ class cartaJugador extends HTMLElement{
                   </div>
               </div>
           </div>`
-            });
-            htmlContent += "</div>"
-            this.innerHTML = htmlContent
-        }
-      }, this.tiempoEnMilisegundos);
-      
+        });
+        htmlContent += "</div>"
+        this.innerHTML = htmlContent
+      }
+    }, this.tiempoEnMilisegundos);
 
-    }
+
+  }
 
 }
 
-    window.customElements.define("carta-jugador", cartaJugador);
-    const iniciarPlantilla = new cartaJugador();
+window.customElements.define("carta-jugador", cartaJugador);
+const iniciarPlantilla = new cartaJugador();
