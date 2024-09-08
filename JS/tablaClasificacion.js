@@ -2,7 +2,7 @@ class tablasClasificacion extends HTMLElement{
     
     constructor(){
         super();
-        this.fase_1
+        this.fase_2
         this.clasUltJor
         this.tiempoEnMilisegundos = 200
     }
@@ -17,7 +17,7 @@ class tablasClasificacion extends HTMLElement{
           return response.json();
         })
         .then(jsonData => {
-          this.fase_1 = jsonData.fase_1;
+          this.fase_2 = jsonData.fase_2;
 
         })
         .catch(error => {
@@ -29,7 +29,7 @@ class tablasClasificacion extends HTMLElement{
       this.cargarJSON();
       setTimeout(() => {
         
-        if(this.fase_1 !== null){
+        if(this.fase_2 !== null){
 
           let htmlContent = `
           <section class="intro ">
@@ -58,7 +58,7 @@ class tablasClasificacion extends HTMLElement{
                               </thead>
                             <tbody>`      
 
-            this.fase_1.sort(function(a, b) {
+            this.fase_2.sort(function(a, b) {
               if (a.puntos > b.puntos) {
                 return -1;
               } else if (a.puntos < b.puntos) {
@@ -74,7 +74,7 @@ class tablasClasificacion extends HTMLElement{
               }
             });
 
-            this.fase_1.forEach((equipo, index) => {
+            this.fase_2.forEach((equipo, index) => {
                 htmlContent += 
                 `
                 <tr>

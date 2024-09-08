@@ -2,75 +2,75 @@
     "equipos" : [
         {
         "nombre" : "A. GUARASA PINTORES ",
-        "puntos" : 12
+        "puntos" : 32
         },
         {
         "nombre" : "CARPASIÓN ",
-        "puntos" : 18
+        "puntos" : 153
         },
         {
         "nombre" : "DAKAR OBRAS y REFORMAS",
-        "puntos" : 15
+        "puntos" : 41
         },
         {
         "nombre" : "GRUPO RÍAS FC ",
-        "puntos" : 14
+        "puntos" : 65
         },
         {
         "nombre" : "L'ART",
-        "puntos" : 29
+        "puntos" : 41
         },
         {
         "nombre" : "LA PLACITA FC",
-        "puntos" : 9
+        "puntos" : 999
         },
         {
         "nombre" : "LA VIEJA ESCUELA ",
-        "puntos" : 6
+        "puntos" : 621
         },
         {
         "nombre" : "LOKAL UNITED ",
-        "puntos" : 15
+        "puntos" : 130
         },
         {
         "nombre" : "LOS CHUCHIS ",
-        "puntos" : 0
+        "puntos" : 21
         },
         {
         "nombre" : "LOS CINCO-SIETE ",
-        "puntos" : 6
+        "puntos" : 151
         },      
         {
         "nombre" : "LOS CRACKS DEL 29",
-        "puntos" : 3
+        "puntos" : 6
         }, 
         {
         "nombre" : "MIESPAÑITA FC ",
-        "puntos" : 12
-        }, 
-        {
-        "nombre" : "NOTTINGHAM MIEDO",
-        "puntos" : 15
-        }, 
-        {
-        "nombre" : "OLIMPIC COSLADA",
-        "puntos" : 3
-        }, 
-        {
-        "nombre" : "OLIVO LEGENDS BURGUERBUEY",
-        "puntos" : 9
-        }, 
-        {
-        "nombre" : "RECREATIVO SAN FERNANDO FC",
         "puntos" : 18
         }, 
         {
+        "nombre" : "NOTTINGHAM MIEDO",
+        "puntos" : 36
+        }, 
+        {
+        "nombre" : "OLIMPIC COSLADA",
+        "puntos" : 38
+        }, 
+        {
+        "nombre" : "OLIVO LEGENDS BURGUERBUEY",
+        "puntos" : 36
+        }, 
+        {
+        "nombre" : "RECREATIVO SAN FERNANDO FC",
+        "puntos" : 27
+        }, 
+        {
         "nombre" : "SAD CIUHOY",
-        "puntos" : 106
+        "puntos" : 147
         }, 
         {
         "nombre" : "WARRIORS",
-        "puntos" : 19
+        "puntos" : 153
         }, 
         {
         "nombre" : "FABULOSOS DEL BALÓN",
@@ -78,43 +78,43 @@
         }, 
         {
         "nombre" : "GATILLEROS FC",
-        "puntos" : 41
+        "puntos" : 80
         }, 
         {
         "nombre" : "LOS CHAVALES",
-        "puntos" : 3
+        "puntos" : 24
         }, 
         {
         "nombre" : "N.C. EUROPE SÁNFER FC",
-        "puntos" : 12
+        "puntos" : 48
         }, 
         {
         "nombre" : "NONAME FC",
-        "puntos" : 21
+        "puntos" : 107
         }, 
         {
         "nombre" : "PALO SALVA",
-        "puntos" : 18
+        "puntos" : 63
         }, 
         {
         "nombre" : "UNIÓN PENOSA FC",
-        "puntos" : 21
+        "puntos" : 39
         }, 
         {
         "nombre" : "DUARTE RACING",
-        "puntos" : 17
+        "puntos" : 49
         }, 
         {
         "nombre" : "NEO SEÚL",
-        "puntos" : 20
+        "puntos" : 151
         }, 
         {
         "nombre" : "SPARTAN KAKO",
-        "puntos" : 15
+        "puntos" : 63
         }, 
         {
         "nombre" : "OPORTO CF",
-        "puntos" : 26
+        "puntos" : 46
         }
     ]
 }

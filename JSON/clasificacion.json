@@ -101,7 +101,105 @@
         }
     ]
     ,
-    "fase_2": {
-
-    }
+    "fase_2": [
+        {
+            "nombre" : "LA VIEJA ESCUELA",
+            "puntos" : 17,
+            "jugados" : 8,
+            "ganados" : 5,
+            "empates" : 2,
+            "derrotas" : 1,
+            "goles_favor" : 30,
+            "goles_contra" : 22,
+            "diferencia_goles" : 8
+        },
+        {
+            "nombre" : "L'ART",
+            "puntos" : 16,
+            "jugados" : 8,
+            "ganados" : 5,
+            "empates" : 1,
+            "derrotas" : 2,
+            "goles_favor" : 25,
+            "goles_contra" : 19,
+            "diferencia_goles" : 6
+        },
+        {
+            "nombre" : "NOTTINGHAM MIEDO",
+            "puntos" : 15,
+            "jugados" : 8,
+            "ganados" : 4,
+            "empates" : 3,
+            "derrotas" : 1,
+            "goles_favor" : 32,
+            "goles_contra" : 20,
+            "diferencia_goles" : 12
+        },
+        {
+            "nombre" : "OPORTO CF",
+            "puntos" : 13,
+            "jugados" : 8,
+            "ganados" : 4,
+            "empates" : 3,
+            "derrotas" : 1,
+            "goles_favor" : 30,
+            "goles_contra" : 20,
+            "diferencia_goles" : 10
+        },
+        {
+            "nombre" : "UNIÓN PENOSA FC",
+            "puntos" : 12,
+            "jugados" : 8,
+            "ganados" : 3,
+            "empates" : 3,
+            "derrotas" : 2,
+            "goles_favor" : 16,
+            "goles_contra" : 11,
+            "diferencia_goles" : 5
+        },
+        {
+            "nombre" : "A. GUARASA PINTORES",
+            "puntos" : 11,
+            "jugados" : 8,
+            "ganados" : 3,
+            "empates" : 2,
+            "derrotas" : 3,
+            "goles_favor" : 23,
+            "goles_contra" : 32,
+            "diferencia_goles" : -9
+        },
+        {
+            "nombre" : "N.C. EUROPE SANFER FC",
+            "puntos" : 8,
+            "jugados" : 8,
+            "ganados" : 2,
+            "empates" : 2,
+            "derrotas" : 4,
+            "goles_favor" : 34,
+            "goles_contra" : 33,
+            "diferencia_goles" : 1
+        },
+        {
+            "nombre" : "DUARTE RACING",
+            "puntos" : 7,
+            "jugados" : 8,
+            "ganados" : 1,
+            "empates" : 4,
+            "derrotas" : 3,
+            "goles_favor" : 28,
+            "goles_contra" : 31,
+            "diferencia_goles" : -3
+        },
+        {
+            "nombre" : "LOS CRACKS DEL 29",
+            "puntos" : 0,
+            "jugados" : 8,
+            "ganados" : 0,
+            "empates" : 0,
+            "derrotas" : 8,
+            "goles_favor" : 11,
+            "goles_contra" : 41,
+            "diferencia_goles" : -30
+        }
+    ]
 }
