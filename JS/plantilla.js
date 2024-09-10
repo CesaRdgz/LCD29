@@ -74,7 +74,6 @@ class cartaJugador extends HTMLElement {
       }
     }, this.tiempoEnMilisegundos);
 
-
   }
 
 }
