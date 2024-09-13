@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Roboto:wght@100&family=Square+Peg&display=swap');
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Bebas Neue';
     display: flex;
     flex-direction: column;
@@ -19,11 +20,11 @@ main {
 
 /*Navbar*/
 
-.navbar{
+.navbar {
     background-color: #00018f !important;
 }
 
-.nav-img{
+.nav-img {
     margin-top: -10px;
     height: 45px !important;
 }
@@ -32,32 +33,32 @@ main {
 /* Footer */
 
 
-.footer{
-    background-color:#151414;
+.footer {
+    background-color: #151414;
     height: 8em !important;
     flex-shrink: 0;
     position: relative;
     margin-top: 40px !important;
-    
+
 }
 
-.img-footer{
+.img-footer {
     height: 2em;
 }
 
-.text-footer{
+.text-footer {
     color: white;
-    
+
 }
 
-#LCD29{
+#LCD29 {
     font-size: 1.5em;
     position: absolute;
     bottom: 40px;
     left: 5px;
 }
 
-#instagram{
+#instagram {
     text-decoration: none;
     color: white;
     position: absolute;
@@ -66,7 +67,7 @@ main {
     right: 10px;
 }
 
-#email{
+#email {
     text-decoration: none;
     color: white;
     position: absolute;
@@ -75,7 +76,7 @@ main {
     right: 40px;
 }
 
-#copyright{
+#copyright {
     position: absolute;
     bottom: 15px;
     left: 10px;
@@ -83,135 +84,153 @@ main {
 
 
 /*Carrousel*/
-.carrousel-img{
+.carrousel-img {
     height: 30em;
     width: 50em;
     object-fit: cover;
     object-position: center center;
 }
-.col-instagram{
+
+.col-instagram {
     position: relative;
 }
 
-.text-white{
+.text-white {
     color: white;
     text-shadow: 1px 1px black;
 }
 
-.carrousel-img{
+.carrousel-img {
     height: 25em;
 }
 
 
 /*Cuerpo*/
 
-.col-titulo{
+.col-titulo {
     margin-top: -7.2em;
 }
 
-#titulo{
-    font-size:115px;
+#titulo {
+    font-size: 115px;
 }
 
 @media (max-width: 767px) {
 
-    .col-instagram{
+    .col-instagram {
         position: relative;
-        top:10px
+        top: 10px
     }
 
-    .col-titulo{
+    .col-titulo {
         margin-top: 0px;
     }
 
-    #titulo{
+    #titulo {
         font-size: 57px;
     }
-  }
+}
 
-        /*Noticias*/
+/*Noticias*/
+.random-news .row-noticias{
+    /* background-color: red; */
+    --bs-gutter-x: 0; /* Horizontal gutter set to 0 */
+    --bs-gutter-y: 0; /* Vertical gutter set to 0 */
+    margin: 0 auto;
+}
 
-        .row-noticias{
-            padding: 2em;
-        }
+.random-news .row-noticias div{
+    /* padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5); */
+    /* padding-right: 10px;
+    padding-left: 10px; */
+}
+.row-noticias {
+    padding: 2em;
+}
 
-        .btn-readMore{
-            background-color: #00018f;
-            color: white;
-        }
+.btn-readMore {
+    background-color: #00018f;
+    color: white;
+}
 
-        .btn-readMore:hover{
-            background-color: white;
-            color: #00018f;
-            border: #00018f 1px solid;
-        }
+.btn-readMore:hover {
+    background-color: white;
+    color: #00018f;
+    border: #00018f 1px solid;
+}
 
-        .btn-readMore:active{
-            background-color: #00018f;
-            color: white;
-        }
+.btn-readMore:active {
+    background-color: #00018f;
+    color: white;
+}
 
-        .img-news{
-            height: 17em;
-            width: 100%;
-            object-fit: cover;
-            object-position: center center;
-        }
+.img-news {
+    height: 17em;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
 
-        .card{
-            margin-top: 1em;
-            
-        }    
- 
+.card {
+    margin-top: 1em;
+
+}
+
+.card-container{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 /*============================================PLANTILLA==============================================*/
-         
+
 .carta-box {
     margin: 25px;
     width: 200px;
     height: 250px;
     position: relative;
     perspective: 1000px;
-    
-  }
-  
-  .carta-box:hover .carta {
-      transform: rotateY(180deg);
-  }
-  
-  .carta {
+
+}
+
+.carta-box:hover .carta {
+    transform: rotateY(180deg);
+}
+
+.carta {
     transform-style: preserve-3d;
     transition: all 0.5s linear;
-    
-  }
-  
-  .cara {
+
+}
+
+.cara {
     position: absolute;
     backface-visibility: hidden;
     border: 2px solid black;
     border-radius: 5px;
-  }
-  
-  .cara.detras {
+}
+
+.cara.detras {
     transform: rotateY(180deg);
     width: 200px;
     height: 250px;
-  }
+}
 
-  .datos-card{
+.datos-card {
     position: absolute;
     left: 3em;
     top: 3em;
-  }
+}
 
-  .carta-cara{
+.carta-cara {
     height: 245px;
     width: 200px;
     object-fit: cover;
     object-position: center center;
     z-index: 10;
-  }
+}
 
-  .circulo {
+.circulo {
     width: 25px;
     height: 25px;
     -moz-border-radius: 50%;
@@ -224,34 +243,34 @@ main {
     text-align: center;
 }
 
-.circulo-numero{
+.circulo-numero {
     position: absolute;
     top: 5px;
     right: 5px;
 }
 
-.circulo-escudo{
+.circulo-escudo {
     position: absolute;
     bottom: 5px;
     left: 5px;
     color: white !important;
 }
 
-.escudo-card{
+.escudo-card {
     width: 20px;
     height: 20px;
 }
 
-.nombre-card{
+.nombre-card {
     writing-mode: vertical-lr;
     position: absolute;
     color: white;
     font-size: 2em;
     left: -5px;
-    top:10px
+    top: 10px
 }
 
-.franja-card{
+.franja-card {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -264,99 +283,100 @@ main {
     top: 102px;
 }
 
-.azul-oscuro{
+.azul-oscuro {
     background-color: #00018f;
     height: 0.5em;
 }
 
-.azul{
+.azul {
     background-color: #2a67bb;
     height: 0.5em;
 }
 
-.btn-blue{
+.btn-blue {
     background-color: #00018f;
     color: white;
     margin-top: 2px;
 }
 
-.btn-blue:hover{
+.btn-blue:hover {
     background-color: white;
     color: #00018f;
     border: #00018f 1px solid;
 
 }
 
-.row-botones{
+.row-botones {
     text-align: center;
     display: block;
 }
 
 /*============================================NOTICIAS==============================================*/
 
-.titulo-noticias{
+.titulo-noticias {
     margin-top: 25px;
     font-size: 100px;
 }
 
-.principal-col{
+.principal-col {
     justify-content: center;
     display: flex;
 }
 
-.articulo{
-    font-family: 'Roboto', sans-serif !important;  
+.articulo {
+    font-family: 'Roboto', sans-serif !important;
 }
 
 /*================================================TABLAS===========================================*/
 
 table td,
 table th {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 thead th {
-  color: #fff;
+    color: #fff;
 }
 
 .card {
-  border-radius: .5rem;
+    border-radius: .5rem;
 }
 
 .table-scroll {
-  border-radius: .5rem;
+    border-radius: .5rem;
 }
 
 .table-scroll table thead th {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 }
+
 thead {
-  top: 0;
-  position: sticky;
+    top: 0;
+    position: sticky;
 }
 
-.nav-link{
+.nav-link {
     color: black;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: black;
 }
 
-.nav-link:active{
+.nav-link:active {
     color: black;
 }
 
 /*================================================PALMARÉS===========================================*/
 
-.img-palmares{
+.img-palmares {
     width: 250px;
     height: 250px;
 }
 
-article{
+article {
     position: relative;
     width: 250px !important;
     transition: all .3s ease;
@@ -381,11 +401,8 @@ article img:last-child {
 }
 
 article:hover {
-    transform: 
-        perspective(250px)
-        rotateX(10deg)
-        translateY(-5%)
-        translateZ(0);
+    transform:
+        perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
 }
 
 article::before {
@@ -395,12 +412,10 @@ article::before {
     height: 100%;
     width: 100%;
     background-image:
-    linear-gradient(
-        to bottom,
-        transparent 5%,
-        rgba(0, 0, 0, 0.5) 50%,
-        rgba(0, 0, 0)95%
-    );
+        linear-gradient(to bottom,
+            transparent 5%,
+            rgba(0, 0, 0, 0.5) 50%,
+            rgba(0, 0, 0)95%);
     opacity: 0;
     transition: all .3s ease;
 }
@@ -423,18 +438,18 @@ article:hover img:last-child {
     height: 350px;
     position: relative;
     perspective: 1000px;
-    }
-  
-  .carta-box-lgnds:hover .carta {
-      transform: rotateY(180deg);
-  }
-  
-  .carta {
+}
+
+.carta-box-lgnds:hover .carta {
+    transform: rotateY(180deg);
+}
+
+.carta {
     transform-style: preserve-3d;
     transition: all 0.5s linear;
-  }
-  
-  .cara-lgnds {
+}
+
+.cara-lgnds {
     position: absolute;
     backface-visibility: hidden;
     border: 2px solid black;
@@ -442,47 +457,47 @@ article:hover img:last-child {
     height: 350px;
     width: 300px;
     border-radius: 5px;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 25%, rgba(43,110,198,1) 81%);
-  }
-  
-  .cara.detras-lgnds {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 18%, rgba(255, 255, 255, 1) 25%, rgba(43, 110, 198, 1) 81%);
+}
+
+.cara.detras-lgnds {
     transform: rotateY(180deg);
     width: 300px;
     height: 350px;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 25%, rgba(43,110,198,1) 81%);
-  }
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 18%, rgba(255, 255, 255, 1) 25%, rgba(43, 110, 198, 1) 81%);
+}
 
-  .datos-card{
+.datos-card {
     position: absolute;
     left: 3em;
     top: 3em;
-  }
+}
 
-  .carta-cara-lgnds{
+.carta-cara-lgnds {
     height: 245px;
     width: 200px;
     object-fit: cover;
     margin: 0 auto;
     z-index: 10;
-  }
+}
 
-  .titulo-lgnd{
+.titulo-lgnd {
     text-align: center;
     vertical-align: middle;
     text-shadow: 0.4px 0.4px white;
     padding: 0;
     margin: 0;
-  }
+}
 
-  .temp-lgnd{
+.temp-lgnd {
     text-align: center;
     vertical-align: middle top;
     padding: 0;
-  }
+}
 
-  .circulo-lgnds {
+.circulo-lgnds {
     width: 25px;
     height: 25px;
     -moz-border-radius: 50%;
@@ -495,14 +510,14 @@ article:hover img:last-child {
     text-align: center;
 }
 
-.circulo-numero-lgnd{
+.circulo-numero-lgnd {
     position: absolute;
     font-size: 25px;
     top: 5px;
     right: 5px;
 }
 
-.circulo-escudo{
+.circulo-escudo {
     position: absolute;
     height: 25px;
     width: 25px;
@@ -511,21 +526,21 @@ article:hover img:last-child {
     color: white !important;
 }
 
-.escudo-card-lgnd{
+.escudo-card-lgnd {
     width: 30px;
     height: 30px;
 }
 
-.nombre-card{
+.nombre-card {
     writing-mode: vertical-lr;
     position: absolute;
     color: white;
     font-size: 2em;
     left: -5px;
-    top:10px
+    top: 10px
 }
 
-.franja-card{
+.franja-card {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -538,19 +553,19 @@ article:hover img:last-child {
     top: 102px;
 }
 
-.btn-blue{
+.btn-blue {
     background-color: #00018f;
     color: white;
     margin-top: 2px;
 }
 
-.btn-blue:hover{
+.btn-blue:hover {
     background-color: white;
     color: #00018f;
     border: #00018f 1px solid;
 }
 
-.italic{
+.italic {
     margin-top: 15px;
     font-style: italic;
 }
@@ -561,15 +576,15 @@ article:hover img:last-child {
     width: 90%;
     margin-top: 20px;
     margin-left: 30px;
-  }
-  
-  hr {
+}
+
+hr {
     flex: 1;
     border: none;
     border-top: 1px solid #000;
-  }
+}
 
-  .lgndCard{
+.lgndCard {
     padding: 0px !important;
     width: 100%;
-  }
+}

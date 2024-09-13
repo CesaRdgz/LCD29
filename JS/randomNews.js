@@ -93,7 +93,7 @@ class randomNews extends HTMLElement{
             let htmlContent = `<div class="row row-noticias">`
             this.threeNews.forEach((noticia, index) => {
                 htmlContent += 
-                `<div class="col-lg-4 col-md-6 col-sm-12">
+                `<div class="col-lg-4 col-md-6 col-sm-12 card-container">
                   <div class="card">
                     <img class="card-img-top img-news" src="../${noticia.urlIMG}" alt="Card image cap">
                     <div class="card-body">
