@@ -105,7 +105,7 @@
                             {
                                 "titulo" : "La Placita vs LCD29",
                                 "subtitulo_card" : "Horario, entradas y donde ver",
-                                "urlIMG" : "IMG/2023-24/Noticias/paloSalvaVer.jpg",
+                                "urlIMG" : "...",
                                 "noticia" : ""
                             },
                             {
@@ -115,6 +115,51 @@
                                 "titulo_noticia" : "✍️CALLEN PERRAS, EMPATARON MIS ÑACKS, cronica por @davidgreyjoy",
                                 "noticia" : "Trepidante el encuentro disputado el sábado que acabo con empate a dos, lo que lo convierte en el primer punto de liga ganado por los clorhidratos de cocaína (cracks). Los protagonistas, los meninos de ouro, los herois do favelas: Moro con su calidad y rabia frecuentes nos regaló un disparo que perforó la portería y al portero rivales y que será probablemente uno de los goles de la Liga. Fabre, con su calidad de 9 habitual, fraguada en cientos de paquetes de Camel, terminó de volver esquizos a los aficionados al empatar tras una definición magistral en el arco enemigo. Estos goles no hubieran sido posibles sin la habitual creación de juego de nuestro rubio pollo favorito, Javi, y el poderío físico portentoso de Pablo, que definitivamente sí que parece que consumió algo de clorhidrato de cocaína para aguantar a un nivel espectacular todo el partido. Y si pudimos empatar la otra mitad del mérito pertenece a la defensa y a nuestro inigualable arquero. Cepi, que con su brazo prensil y una cantidad suficiente de anestésicos para evitar el dolor pudo contener todo el ataque rival. Manu, con la tranquilidad de un marihuanero plenamente impasible en su portería. Diego y Adri corrían por la banda como heroinómanos con síndrome de abstinencia, generando ocasiones y recuperando balones. Y Dani, q como un adicto al LSD, fue capaz de estar en todas partes, en todas posiciones y sobre todo, en nuestros corazones. Partido espectacular por parte de estos abanderados de Proyecto Hombre que nos permite afrontar la siguiente jornada con ilusión."
                             }
+                ],
+                "jornada_7" : [
+                    {
+                        "titulo" : "LCD29 vs Carpasion",
+                        "subtitulo_card" : "Horario, entradas y donde ver",
+                        "urlIMG" : "...",
+                        "noticia" : ""
+                    },
+                    {
+                        "titulo" : "Resumen de la Jornada 7 (1ª fase)",
+                        "subtitulo_card" : "LCD29 (3) - (0) Carpasion",
+                        "urlIMG" : "...",
+                        "titulo_noticia" : "✍️TANTO VA EL CÁNTARO A LA FUENTE QUE AL FINAL LOS SANCIONAN, crónica por @davidgreyjoy",
+                        "noticia" : "Asies, ganamos un partido de la única manera en la que el equipo azulón podía hacerlo: en los despachos, como nos enseñó el Tito Floren o la ambivalencia de don Jesús Gil. Pero como a mí pagan por contar milongas pues os voy a colar una crónica falsa por la escuadra, que mis Monster no se pagan solos. Bueno el caso es que de los tres goles asignados el único real del partido lo marcó Moro tras jugadón de Fabre en lo que viene siendo la tónica habitual en nuestras jugadas de ataque (me gustaría volver a recalcar que Moro es defensa). El segundo lo metió Cepi de una chilena espectacular en la que se le desarmó el hombro y quedó como cuando matas a un enemigo en los videojuegos de Lego. Asistencia de un Lunar pletórico que además de robar pelotas y tocar las nuestras también llega al ataque. El tercero y último lo metió Manu en un penalti pitado a favor (no quiso que le pusiera de falta, es demasiado humilde mi primito el Cheka). Lo metió a la panenka en un guiño a su ídolo Sergio Ramos. En realidad no sabe tirar penaltis. Epiko resultado con el que el equipo consigue los primeros tres puntos de su historia. Nota del Autor: nos marcaron un 5-1. Además llevan sin pagarme ya 6 semanas y como vuelva a no cobrar otra me inmolo en la sede del equipo (es mi casa)."
+                    }
+                ],
+                "jornada_8" : [
+                    {
+                        "titulo" : "Los chavales vs LCD29",
+                        "subtitulo_card" : "Horario, entradas y donde ver",
+                        "urlIMG" : "...",
+                        "noticia" : ""
+                    },
+                    {
+                        "titulo" : "Resumen de la Jornada 8 (1ª fase)",
+                        "subtitulo_card" : "Los chavales (4) - (0) LCD29",
+                        "urlIMG" : "...",
+                        "titulo_noticia" : "No hay titulo",
+                        "noticia" : "No hay cronica"
+                    }
+                ],
+                "jornada_9" : [
+                    {
+                        "titulo" : "LCD29 vs Los chuchis",
+                        "subtitulo_card" : "Horario, entradas y donde ver",
+                        "urlIMG" : "...",
+                        "noticia" : ""
+                    },
+                    {
+                        "titulo" : "Resumen de la Jornada 9 (1ª fase)",
+                        "subtitulo_card" : "LCD29 (1) - (7) Los chuchis",
+                        "urlIMG" : "...",
+                        "titulo_noticia" : "No hay titulo",
+                        "noticia" : "No hay cronica"
+                    }
                 ]
                           
             },
