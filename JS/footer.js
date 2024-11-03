@@ -1,6 +1,7 @@
 class footer extends HTMLElement{
     constructor(){
         super();
+        this.clickCount = 0; 
     }
 
     static get observedAttributes(){
@@ -33,6 +34,18 @@ class footer extends HTMLElement{
                 <p class="text-footer" ><a href="mailto:loscracksdel29@gmail.com" id="email" target="_blank"><i class="bi bi-envelope"></i></a></p>
             </footer>`
         }
+        this.easterEgg()
+    }
+
+    easterEgg() {
+        const secret = document.getElementById("LCD29");
+        secret.addEventListener('click', () => {
+            this.clickCount++;
+            if (this.clickCount == 24) {
+                window.open('https://shattereddisk.github.io/rickroll/rickroll.mp4', '_blank');
+                this.clickCount = 0;
+            }
+        });
     }
 }
 
